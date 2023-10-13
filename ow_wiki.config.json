@@ -1,0 +1,19 @@
+{
+  "ListenPort": "1235",
+  "DirectoryList": [
+    {
+      "ID": "docs",
+      "Name": "docs",
+      "Path": "docs",
+      "PublicPathList": null
+    }
+  ],
+  "AllowIPList": [
+    {
+      "IPRegexp": "^.*$",
+      "Allow": true,
+      "Comment": ""
+    }
+  ],
+  "DefaultLanguage": "de"
+}

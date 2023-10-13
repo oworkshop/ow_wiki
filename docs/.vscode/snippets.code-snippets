@@ -1,0 +1,99 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Deutsch-Nomen": {
+		"scope": "json",
+		"prefix": "den",
+		"body": [
+			"{",
+			"    \"Typ\": \"Nomen\",",
+			"    \"Audio\": \"\",",
+			"    \"Note\": \"\",",
+			"    \"Data\": [\"$0\", \"\", \"\", \"\"],",
+			"    \"Beispiel\": \"\",",
+			"    \"Section\": \"A1_Lektion_\"",
+			"},",
+		],
+		"description": ""
+	},
+	"Deutsch-Verb": {
+		"scope": "json",
+		"prefix": "dev",
+		"body": [
+			"{",
+			"    \"Typ\": \"Verb\",",
+			"    \"Audio\": \"\",",
+			"    \"Note\": \"\",",
+			"    \"Data\": [\"$0\", \"\", \"\", \"\"],",
+			"    \"Beispiel\": \"\",",
+			"    \"Section\": \"A1_Lektion_\"",
+			"},",
+		],
+		"description": ""
+	},
+	"Deutsch-2": {
+		"scope": "json",
+		"prefix": "de2",
+		"body": [
+			"{",
+			"    \"Typ\": \"2\",",
+			"    \"Audio\": \"\",",
+			"    \"Note\": \"\",",
+			"    \"Data\": [\"$0\", \"\"],",
+			"    \"Beispiel\": \"\",",
+			"    \"Section\": \"A1_Lektion_\"",
+			"},",
+		],
+		"description": ""
+	},
+	"äÄüÜöÖßé": {
+		"scope": "",
+		"prefix": "dea",
+		"body": [
+			"äÄüÜöÖßéÁáĆćńóśź„“‚‘",
+		],
+		"description": ""
+	},
+	"markdown-code": {
+		"scope": "markdown",
+		"prefix": "co",
+		"body": [
+			"`````",
+			"",
+			"`````",
+		],
+		"description": ""
+	},
+	"markdown-danci": {
+		"scope": "markdown",
+		"prefix": "dc",
+		"body": [
+			"<div DanCi=\"$0\" FanYi=\"\" ></div>",
+			"",
+		],
+		"description": ""
+	},
+	"markdown-juzi": {
+		"scope": "markdown",
+		"prefix": "jz",
+		"body": [
+			"<div JuZi=\"$0\" FanYi=\"\"></div>",
+			"",
+		],
+		"description": ""
+	},
+}
